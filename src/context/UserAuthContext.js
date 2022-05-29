@@ -29,6 +29,8 @@ export function UserAuthContextProvider({ children}){
         return signOut(auth);
     }
 
+    //GOOGLE SIGN IN USING BUTTON
+
     function googleSignIn(){
         const googleAuthProvider = new GoogleAuthProvider();
         return signInWithPopup(auth,googleAuthProvider);

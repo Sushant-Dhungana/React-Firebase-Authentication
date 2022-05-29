@@ -68,6 +68,7 @@ function Login() {
         </Form>
         <hr />
       </div>
+      {/* GOOGLE BUTTON SIGN IN */}
       <div><GoogleButton 
       onClick={handleGoogleSignIn}
       /></div>
